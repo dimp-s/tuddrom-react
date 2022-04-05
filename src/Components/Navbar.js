@@ -13,7 +13,7 @@ export default function Navbar() {
           <nav className='navbar'>
               <img alt='' src={logo} className="logo"/>
               <div className='searchBar'>
-                  <input type='text' className='searchbox'/>
+                  <input type='text' className='searchbox' placeholder='SEARCH...'/>
                   <FaSistrix className='search-icon'/>
               </div>
               <FaGratipay className={`${isHeartFilled ? `heart-icon-filled` : `heart-icon`}`} onClick={changeHeart} size="2x"/>
