@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css"
 export default function Testimonials() {
   return (
       <div className='testimonial'>
-        <h1 className='testimonial-header'>The <span className='tuddrom-header'>Tuddrum</span> hype!</h1>
+        <h1 className='testimonial-header'>The <span className='tuddrom-header'>Tuddrom</span> hype!</h1>
         <div style={{maxWidth: '75%'}}>
         <Slider>
             <Card 
