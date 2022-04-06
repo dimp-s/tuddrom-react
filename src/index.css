@@ -10,11 +10,11 @@
   justify-content: space-between;
   align-items: center;
   background-color: black;
-  /* position: fixed;
-  top: 100;
+  position: fixed;
+  top: 0;
   left: 0;
   right: 0;
-  z-index: 100; */
+  z-index: 100;
   max-width: 100%;
 }
 
@@ -55,7 +55,7 @@ height: 40px;
 width: 30px;
 cursor: pointer;
 align-items: center;
-color: rgb(235, 148, 18);
+color: #fcb900;
 }
 
 .heart-icon{
@@ -74,7 +74,7 @@ margin: 0 auto;
 cursor: pointer;
 }
 .shop-icon{
-color: rgb(235, 148, 18);
+color: #fcb900;
 width: 25px;
 margin-right: auto;
 cursor: pointer;
@@ -85,16 +85,15 @@ cursor: pointer;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  cursor: grab;
-  margin-top: 25px;
+  margin-top: 125px;
 }
 
 
 .testimonial-header{
   color: #fff;
 }
-.tuddrum-header{
-  color: rgb(235, 148, 18);
+.tuddrom-header{
+  color: #fcb900;
 }
 .testimonial-review{
    color: #fff;
@@ -102,7 +101,7 @@ cursor: pointer;
    margin-top: 25px;
  }
 .testimonial-brand{
-  color: rgb(235, 148, 18);
+  color: #fcb900;
   margin-top: 25px;
 }
 

@@ -1,0 +1,30 @@
+.testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 125px;
+    cursor: grab;
+  }
+  
+  
+  .testimonial-header{
+    color: #fff;
+  }
+  .tuddrom-header{
+    color: #fcb900;
+  }
+  .testimonial-review{
+     color: #fff;
+     font-weight: bolder;
+     margin-top: 25px;
+   }
+  .testimonial-brand{
+    color: #fcb900;
+    margin-top: 25px;
+  }
+  
+  .testimonial-brand-logo{
+    margin-top: 25px;
+    border: 2px solid white;
+  }

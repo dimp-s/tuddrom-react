@@ -1,6 +1,6 @@
 import React from 'react'
-import "../index.css"
-import logo from "../Assets/TLogo.PNG"
+import "./navbar.css"
+import logo from "./TLogo.PNG"
 import {FaSistrix , FaGratipay, FaShopify} from "react-icons/fa"
 
 export default function Navbar() {
