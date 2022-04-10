@@ -1,0 +1,24 @@
+
+.banner-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 125px;
+    cursor: pointer;
+}
+
+.slider{
+height: 100%;
+max-width: 100%;
+}
+
+.banner-image{
+    width: 100%;
+}
+
+@media (min-width: 728px){
+    .banner-box{
+        max-width: 100%;
+    }
+}
